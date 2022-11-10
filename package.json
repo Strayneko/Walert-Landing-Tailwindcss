@@ -1,0 +1,10 @@
+{
+  "name": "day 1. Landing - Page",
+  "packageManager": "yarn@3.2.4",
+  "dependencies": {
+    "tailwindcss": "^3.2.2"
+  },
+  "scripts": {
+    "dev": "yarn tailwindcss -i ./src/css/input.css -o ./dist/css/style.css --watch"
+  }
+}

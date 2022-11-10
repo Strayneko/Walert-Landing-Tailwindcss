@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Walert</title>
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css" />
+  <!-- main style -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- navbar start -->
+  <!-- header start -->
+  <header
+    class="absolute top-0 left-0 w-full flex items-center z-10 lg:w-10/12 lg:left-1/2 lg:-translate-x-1/2 bg-white h-20 lg:h-18 lg:font-semibold transition-all lg:justify-center">
+    <div class="container">
+      <div class="flex items-center justify-between relative">
+        <div class="px-6">
+          <a href="#" class="">
+            <span class="w-32 h-32 bg-secondary p-3 text-center rounded-full">
+              <i class="fa-solid fa-bolt text-2xl text-white"></i></span>
+            <span class="text-2xl text-secondary">Walert</span>
+          </a>
+        </div>
+
+        <div class="flex items-center px-4">
+          <button class="block absolute right-4 lg:hidden" type="button" id="hamburger">
+            <span class="hamburger-line transition ease-in-out duration-300 origin-top-left"></span>
+            <span class="hamburger-line transition ease-in-out duration-300"></span>
+            <span class="hamburger-line transition ease-in-out duration-300 origin-bottom-left"></span>
+          </button>
+
+          <nav id="navbar-menu"
+            class="hidden absolute top-full py-5 shadow-lg bg-white rounded-lg max-w-[250px] w-full right-4 z-[99999] lg:block lg:max-w-full lg:static lg:bg-transparent lg:shadow-none lg:rounded-none">
+            <ul class="block lg:flex lg:items-center">
+              <li class="group">
+                <a href="#" class="lg:text-base text-lg text-dark mx-8 py-2 group-hover:text-secondary">Home</a>
+              </li>
+              <li class="group">
+                <a href="#pricing"
+                  class="lg:text-base text-lg text-slate-600 mx-8 py-2 group-hover:text-secondary">Pricing</a>
+              </li>
+              <li class="group">
+                <a href="#about" class="lg:text-base text-lg text-slate-600 mx-8 py-2 group-hover:text-secondary">About
+                  Us</a>
+              </li>
+              <li class="group">
+                <a href="#contact"
+                  class="lg:text-base text-lg text-slate-600 mx-8 py-2 group-hover:text-secondary">Contact</a>
+              </li>
+              <li class="group text-center mt-3 lg:mt-0">
+                <button
+                  class="rounded-full px-3 py-2 mx-auto text-secondary hover:bg-secondary hover:text-white mr-3 transition-all">
+                  Login
+                </button>
+              </li>
+              <li class="group text-center mt-3 lg:mt-0">
+                <button
+                  class="bg-secondary rounded-full px-3 py-2 text-white hover:bg-blue-800 group-hover:-translate-y-2 transition-all">
+                  Sign Up
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- navbar end -->
+
+  <!-- Upper section start -->
+  <section id="up">
+    <div class="container mx-auto mt-28 px-16">
+      <div class="flex flex-wrap">
+        <div class="lg:w-2/3 w-full">
+          <h1 class="lg:text-8xl md:text-5xl font-bold text-dark text-2xl ">
+            We alert when I'ts <span class="text-secondary"> down</span>
+            <span class="inline-block">
+              <a href="" class="block text-base lg:text-2xl text-blue-500 hover:text-blue-700 md:mt-3">Try for free
+                <span
+                  class="w-10 h-10 bg-secondary text-white px-2 py-1 rounded-full text-center text-2xl hover:bg-blue-700"><i
+                    class="fa-solid fa-arrow-right"></i></span></a>
+              <small class="text-base block text-slate-500 mt-2">*No credit card required.</small>
+            </span>
+          </h1>
+        </div>
+
+        <div class="lg:w-1/3">
+          <p class="text-dark lg:text-xl">
+            Get website downtime alerts by phone,. if your website down.
+            Create manageme and keep your visiotrs updated.
+          </p>
+          <div class="flex justify-end flex-wrap">
+            <h3 class="mt-3 text-xl mb-3">Recomended By :</h3>
+            <div class="flex gap-0">
+              <div class="w-20 h-20 rounded-full overflow-hidden hover:scale-125 transition-all">
+                <img src="images/1.jpg" alt="Profile 1" class="w-full" />
+              </div>
+              <div class="w-20 h-20 rounded-full overflow-hidden -ml-5 hover:scale-125 transition-all">
+                <img src="images/2.jpeg" alt="Profile 2" class="w-full" />
+              </div>
+              <div class="w-20 h-20 rounded-full overflow-hidden -ml-5 hover:scale-125 transition-all">
+                <img src="images/3.jpg" alt="Profile 2" class="w-full" />
+              </div>
+              <div class="w-20 h-20 rounded-full overflow-hidden -ml-5 hover:scale-125 transition-all">
+                <img src="images/4.jpg" alt="Profile 2" class="w-full" />
+              </div>
+              <div class="w-20 h-20 rounded-full overflow-hidden -ml-5 bg-secondary hover:scale-125 transition-all">
+                <div class="flex justify-center items-center h-full text-white text-xl">
+                  20k+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Upper section end -->
+
+  <!-- Laptop image start -->
+  <section>
+    <div class="container px-16 mt-10 mx-auto overflow-hidden rounded-lg">
+      <img src="images/laptop.jpg"
+        class="rounded-lg shadow lg:h-72 w-full h-full hover:scale-125 hover:rotate-12 transition-all"
+        alt="Laptop image" />
+    </div>
+  </section>
+  <!-- Laptop image end -->
+
+  <!-- service section start -->
+  <section id="pricing">
+    <div class="container px-16 lg:px-0 mx-auto flex flex-wrap mt-14">
+      <div class="lg:w-1/3">
+        <h1 class="text-4xl lg:text-5xl font-bold text-dark">
+          Our <span class="text-secondary">services</span> made for you?
+        </h1>
+      </div>
+      <div class="lg:w-2/3 text-slate-500 lg:text-2xl lg:mt-0 mt-5">
+        <p>
+          Who is suitable to use our services so that the impact is maximized
+          and the benefits can be felt.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- service section end -->
+
+  <!-- services section start -->
+  <section>
+    <div class="container mt-14 mx-auto">
+      <div class="flex flex-wrap justify-center ">
+        <figure class="flex lg:w-1/3 flex-wrap lg:flex-nowrap pb-10 lg:pb-0">
+          <div class="h-24 w-1/2 bg-slate-200 rounded shadow inline-block group mx-auto lg:mx-0">
+            <div class="flex justify-center h-full items-center group-hover:rotate-45 transition-all">
+              <i class="fa-solid fa-rocket -rotate-45 text-secondary text-5xl"></i>
+            </div>
+          </div>
+
+          <div class="inline-block lg:w-80 text-center lg:text-left">
+            <h3 class="font-bold text-2xl ml-5 block mt-3 lg:mt-0">
+              Startup
+            </h3>
+            <figcaption class="text-base text-slate-600 ml-5">
+              You've just launched your project, and want to minimise risk of
+              downtime.
+            </figcaption>
+          </div>
+        </figure>
+
+        <figure class="flex lg:w-1/3 flex-wrap lg:flex-nowrap pb-10 lg:pb-0">
+          <div class="h-24 w-1/2 bg-slate-200 rounded shadow inline-block group mx-auto lg:mx-0">
+            <div class="flex justify-center h-full items-center group-hover:scale-125 transition-all">
+              <i class="fa-solid fa-briefcase text-secondary text-5xl"></i>
+            </div>
+          </div>
+
+          <div class=" w-full text-center lg:text-left">
+            <h3 class="font-bold text-2xl ml-5 block mt-3 lg:mt-0">
+              Business
+            </h3>
+            <figcaption class="text-base text-slate-600 ml-5">
+              You've just launched your project, and want to minimise risk of
+              downtime.
+            </figcaption>
+          </div>
+
+        </figure>
+        <figure class="flex lg:w-1/3 flex-wrap lg:flex-nowrap">
+          <div class="h-24 w-1/2 bg-slate-200 rounded shadow inline-block group mx-auto lg:mx-0">
+            <div class="flex justify-center h-full items-center group-hover:scale-125 transition-all">
+              <i class="fa-solid fa-cart-shopping text-secondary text-5xl"></i>
+            </div>
+          </div>
+
+          <div class=" lg:w-80 text-center lg:text-left">
+            <h3 class="font-bold text-2xl ml-5 block mt-3 lg:mt-0">
+              E-Commerce
+            </h3>
+            <figcaption class="text-base text-slate-600 ml-5">
+              You've just launched your project, and want to minimise risk of
+              downtime.
+            </figcaption>
+          </div>
+        </figure>
+      </div>
+    </div>
+  </section>
+  <!-- services section end -->
+
+  <!-- Monitor section start -->
+  <section>
+    <div class="container mx-auto px-16 mt-10">
+      <h1 class="text-center text-5xl font-bold text-dark">
+        <span class="text-secondary">Monitor</span> from around the world!
+      </h1>
+      <p class="text-center text-slate-500 text-xl pt-2">
+        Walert now monitors from more data centers around the world to
+        guarantee redudancy and localize outages. We'll show in which part of
+        the world your website is down or slow.
+      </p>
+      <img src="images/connected.png" alt="connected Image"
+        class="mx-auto w-3/4  hover:rotate-[360deg] transition-all hover:scale-125" />
+    </div>
+  </section>
+  <!-- Monitor section end -->
+
+  <!-- alerts section start -->
+  <section>
+    <div class="container mx-auto px-16 mt-16 flex flex-wrap">
+      <div class="lg:w-1/2">
+        <h1 class="font-bold text-5xl text-dark">
+          Get <span class="text-secondary">alerts</span> in a way you prefer.
+        </h1>
+        <p class="text-slate-600 text-xl mt-5">
+          When your site is down, we send notification prefer so you can act
+          as fast as possible and minimise any downtime. Receive instant via
+          and more to you and your teammates.
+        </p>
+        <div class="mt-3">
+          <span class="text-secondary text-4xl mr-10"><i class="fa-brands fa-slack"></i></span>
+          <span class="text-secondary text-4xl mr-10"><i class="fa-brands fa-telegram"></i></span>
+          <span class="text-secondary text-4xl rounded-full mr-10"><i class="fa-solid fa-envelope"></i></span>
+          <span class="text-secondary text-4xl"><i class="fa-solid fa-phone"></i></span>
+        </div>
+      </div>
+
+      <div class="lg:w-1/2">
+        <img src="images/untitled.png" alt="What image is this?" class="-mt-12 w-full">
+
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- alerts section end -->
+
+  <!-- about section start -->
+  <section id="about">
+    <div class="container mx-auto px-16 mt-10">
+      <h1 class="font-bold text-5xl text-center">What are they <span class="text-secondary">Say</span> About us</h1>
+      <p class="mt-3 text-slate-600 text-xl text-center">
+        Doubtful about our service? Here are some testimonials from our customers who have used the
+        services of Walert
+      </p>
+
+    </div>
+
+    <div class="container mx-auto lg:w-full  mt-5 w-10/12 ">
+
+      <div class="bg-muted rounded-lg relative w-full h-full">
+        <!-- carousel previous button -->
+        <a href="" id="carouselPrev"
+          class="w-fit px-3 py-2 rounded-full text-white bg-secondary absolute top-1/2 -translate-y-1/2 -ml-5 hover:bg-blue-800"><i
+            class="fa-solid fa-arrow-left"></i></a>
+        <!-- carousel previous button -->
+
+
+
+        <figure class=" flex flex-wrap lg:flex-nowrap" id="carousel">
+
+          <div id="caption">
+            <figcaption class="lg:w-2/3 m-10 text-slate-600 text-xl">"Tens of thousands of business owners from around
+              the world rely on our service, and
+              Pulsetic is the best platform there is to ensure we communicate any downtimes clearly and
+              swiftly to our customers to avoid panic and disappointment. Getting setup on Pulsetic not
+              only been smooth and easy but super joyful too, the design is stunning and customisable
+              unlike any other monitoring platform we've used."</figcaption>
+            <div class="mb-10 text-center lg:text-left">
+              <h1 class="font-bold text-4xl ml-8">Jane Cooper</h1>
+              <small class="text-lg ml-8 text-slate-600">Soylent Corp</small>
+            </div>
+
+          </div>
+          <img src="images/guy.png" alt="Random guy" class="lg:w-1/3 lg:h-2/3 mx-auto lg:mx-0">
+        </figure>
+
+
+        <!-- carousel next button -->
+        <a href="" id="carouselNext"
+          class="w-fit px-3 py-2 rounded-full text-white bg-secondary absolute top-1/2 -right-4 -translate-y-1/2  hover:bg-blue-800"><i
+            class="fa-solid fa-arrow-right"></i></a>
+        <!-- carousel next button -->
+      </div>
+
+    </div>
+  </section>
+  <!-- about section end -->
+
+
+
+  <!-- Account section start -->
+  <section class="mb-20" id="contact">
+    <div class="container mx-auto px-16 mt-20">
+      <h1 class="text-5xl font-bold text-center">Get <span class="text-secondary">free</span> account now</h1>
+      <p class="mt-2 text-center text-slate-600 text-xl">10 monitors, unlimited status pages and custom domain included.
+        For unlimited time and unlimited emails alerts</p>
+    </div>
+    <div class="text-center mt-4">
+      <button
+        class="bg-secondary text-white px-3 py-2 rounded-full hover:bg-blue-800 hover:-translate-y-2 transition-all">Try
+        for Free</button>
+    </div>
+  </section>
+  <!-- Account section end -->
+
+
+  <!-- footer start -->
+  <footer class="bottom-0 mb-10">
+    <div class="container">
+      <div class="flex items-center justify-between relative">
+        <div class="px-6">
+          <a href="#" class="">
+            <span class="w-32 h-32 bg-secondary p-3 text-center rounded-full">
+              <i class="fa-solid fa-bolt text-2xl text-white"></i></span>
+            <span class="text-2xl text-secondary">Walert</span>
+          </a>
+        </div>
+
+        <div class="flex items-center px-4">
+          <button class="block absolute right-4 lg:hidden" type="button" id="hamburger-footer">
+            <span class="hamburger-line transition ease-in-out duration-300 origin-top-left"></span>
+            <span class="hamburger-line transition ease-in-out duration-300"></span>
+            <span class="hamburger-line transition ease-in-out duration-300 origin-bottom-left"></span>
+          </button>
+
+          <nav id="footer-menu"
+            class="hidden absolute bottom-full  py-5 shadow-lg bg-white rounded-lg max-w-[250px] w-full right-4 z-[99999] lg:block lg:max-w-full lg:static lg:bg-transparent lg:shadow-none lg:rounded-none">
+            <ul class="block lg:flex lg:items-center">
+              <li class="group">
+                <a href="" class="lg:text-base text-lg text-dark mx-8 py-2 group-hover:text-secondary">Home</a>
+              </li>
+              <li class="group">
+                <a href="#about"
+                  class="lg:text-base text-lg text-slate-600 mx-8 py-2 group-hover:text-secondary">Pricing</a>
+              </li>
+              <li class="group">
+                <a href="#program"
+                  class="lg:text-base text-lg text-slate-600 mx-8 py-2 group-hover:text-secondary">About Us</a>
+              </li>
+              <li class="group">
+                <a href="#process"
+                  class="lg:text-base text-lg text-slate-600 mx-8 py-2 group-hover:text-secondary">Contact</a>
+              </li>
+              <li class="group text-center mt-3 lg:mt-0 ">
+                2022 Walert. All right reserved.
+              </li>
+
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+  <!-- main script file -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
